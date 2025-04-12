@@ -59,3 +59,57 @@
 .tetromino-ghost {
     opacity: 0.3;
 }
+
+@media (max-width: 600px) {
+    .cell {
+        width: 20px;
+        height: 20px;
+    }
+
+    .tetromino-I,
+    .tetromino-O,
+    .tetromino-T,
+    .tetromino-J,
+    .tetromino-L,
+    .tetromino-S,
+    .tetromino-Z {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .cell {
+        width: 30px;
+        height: 30px;
+    }
+
+    .tetromino-I,
+    .tetromino-O,
+    .tetromino-T,
+    .tetromino-J,
+    .tetromino-L,
+    .tetromino-S,
+    .tetromino-Z {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .cell {
+        width: 40px;
+        height: 40px;
+    }
+
+    .tetromino-I,
+    .tetromino-O,
+    .tetromino-T,
+    .tetromino-J,
+    .tetromino-L,
+    .tetromino-S,
+    .tetromino-Z {
+        width: 40px;
+        height: 40px;
+    }
+}
